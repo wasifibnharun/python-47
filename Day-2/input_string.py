@@ -1,0 +1,5 @@
+name=input("Your name is : ")
+age=input("Your age is : ")
+course=input("You are learning : ")
+place=input("You are learning at : ")
+print("Your name is "+name+",you are "+age+" years old,"+"you are learning "+course+" and you are learning at "+place)
