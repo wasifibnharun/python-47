@@ -1,6 +1,3 @@
-# python-47
-# python-47
-# python 47
-# all_my_codings
-# python codes
-# python-47
+Course name: Python-47
+Place: NVIT,CTG
+A proper core foundation of PYTHON language
