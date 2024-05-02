@@ -4,14 +4,14 @@ started=False
 while True:
     command=input(">>>")
     if command=="start":
-        if started==False:
-            print("Car has started")
+        if started==True:
+            print("Car is already started")
         else:
             started=True
-            print("Car is already started")
+            print("Car Started")
     elif command=="stop":
-        if not started==False:
-            print("Car is already stopped")
+        if not started==True:
+            print("Car is already stopped..")
         else:
             started=False
             print("Car has stopped")
