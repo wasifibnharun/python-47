@@ -1,0 +1,9 @@
+H\omework:
+
+Use two variables to hold to value:
+	first_num=input()
+	second_num=input()
+Design a program which displays:
+Case:1 "The first number is big"
+Case:2 "The second number is big"
+Case:3 "Both numbers are equal"

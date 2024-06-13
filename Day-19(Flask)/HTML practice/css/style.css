@@ -1,0 +1,31 @@
+/*CSS means Cascading Style Sheets
+*/
+h1{
+    color: chocolate;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.site-title{
+    color: burlywood;
+}
+
+#site-logo img{
+    height: 30px;
+    width: 70px;
+}
+
+.site-news-title{
+    border: 1px solid red;
+}
+
+.shadow-text{
+    /*horizontal offset vertical offset blur color*/
+    text-shadow: 8px 25px 5px brown;
+}
+
+p{
+    color: blue;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+}
