@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold text-body-emphasis">Welcome to PollsterHub</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">PollsterHub is your go-to platform for simple and engaging polls. Whether you're looking to gather opinions, make decisions, or just have fun, our easy-to-use interface allows you to create and vote in polls effortlessly. Join our community, participate in ongoing polls, and see what others think on a variety of topics. With PollsterHub, your voice counts!</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <a href="/polls"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Polls</button></a>&nbsp;&nbsp;&nbsp;
+        <a href="/admin"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Admin Panel</button></a>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
